@@ -1,5 +1,5 @@
 /* ------------------------- 전역 상수/변수 ------------------------- */
-const body = document.body;              
+const body = document.getElementById("app");
 /* 
   ①문서의 body 요소에 접근하는 전역 변수
   ②body 대신 다른 요소 접근 시 전역적으로 영향 있음
@@ -403,3 +403,5 @@ console.info("%c🚀 포트폴리오 스크립트 로드 완료", "color:#4f46e5
   ①스크립트 정상 로드 알림
   ②삭제 가능
 */
+
+
